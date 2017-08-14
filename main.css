@@ -1,0 +1,66 @@
+body {
+ background-image: url(images/desktp2.jpg);
+ }
+
+ #calc-frame {
+   width: 400px;
+   height: 500px;
+   background-color: white;
+   margin: 50px auto;
+   border: 2.5px solid #FF3399;
+
+
+}
+#first-row button {
+  float: left;
+  width: 25%;
+  height: 20%;
+  font-family: monospace;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+  background-color:	#FF73B9;
+  border-color: #FF3399;
+  border: 3px solid #FF3399;
+}
+
+#first-row button:hover {
+
+background-color: #CC00FF;
+}
+#result {
+  width: 75%;
+  height: 20%;
+  background: #FF3399;
+  display: inline-block;
+  margin-right: auto;
+}
+.second-row #slash {
+  background-color:#FFBBDD ;
+}
+.third-row #times {
+  background-color: #FFBBDD;
+}
+.fourth-row #subtract {
+  background-color:#FFBBDD;
+}
+.fifth-row #plus {
+  background-color:#FFBBDD;
+}
+#calculator {
+width: 30%;
+margin: 20%;
+border: 5px solid pink;
+}
+.button {
+height: 90px;
+width: 90px;
+font-size: 50px;
+color: white;
+background-color: rgb(240, 114, 202);
+border:  4px solid white;
+float: right;
+}
+.sign {
+  width: 100%;
+}
